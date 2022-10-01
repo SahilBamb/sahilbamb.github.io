@@ -85,7 +85,7 @@ Some interesting notes from the interview:
 * One strategy to deal with scale to do with the use of multiple "cells" across the network, functioning essentially as related but distinct file systems. With each cell, ultimately, having its own master. 
 
 
-### # Google File System Eval: Part I
+#### Google File System Eval: Part I
 A great simplified down version of GFS for non-technical readers. 
 
 Link: https://storagemojo.com/google-file-system-eval-part-i/

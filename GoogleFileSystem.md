@@ -2,12 +2,12 @@
 
 ### Original Paper: The Google File System Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung
 
-Link: https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
+Link: [https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
 
 Original paper published at Google that theorized the concept and was implemented to great success at Google.  All the other resources will explain this paper in great depth. 
 
 ### Google File System - Paper that Inspired Hadoop Youtube Video by Defog Tech
-Link: https://www.youtube.com/watch?v=eRgFNW4QFDc
+Link: [https://www.youtube.com/watch?v=eRgFNW4QFDc](https://www.youtube.com/watch?v=eRgFNW4QFDc)
 
 A short summary of the paper and connections to later implementation in the well known Apache Hadoop distributed file system. 
 
@@ -22,7 +22,7 @@ Some design considerations were:
 5. One Master for All Servers
 
 ### MIT 6.824 Distributed Systems (Spring 2020) Lecture 3 - GFS
-Link: https://www.youtube.com/watch?v=EpIgvowZr00
+Link: [https://www.youtube.com/watch?v=EpIgvowZr00](https://www.youtube.com/watch?v=EpIgvowZr00)
 
 An amazing lecture from an MIT course on distributed systems that describes the GFS or Google File System from a background approach. 
 
@@ -35,6 +35,7 @@ Strong consistency means that it feels like the user is just accessing their fil
 
 
 ### The Last Publicly Announced Change of GFS in 2010: Removing Map Reduce
+Link: [http://highscalability.com/blog/2010/9/11/googles-colossus-makes-search-real-time-by-dumping-mapreduce.html](http://highscalability.com/blog/2010/9/11/googles-colossus-makes-search-real-time-by-dumping-mapreduce.html)
 
 Discusses updating GFS in 2010 to Colossus to deal with changes in the digital handheld era. Specifically, adapting to the mobile landscapes need to keep up with the real-time world. Map Reduce, the underlying algorithm underneath GFS and motivation for the paper is inherently batch oriented. 
 
@@ -51,10 +52,11 @@ Triggers tend to:
 
 Google may have made a specialized database that solves these issues with triggers. Which makes sense as hundreds of thousands of pages are being crawled simultaneously.
 
-Interesting Quote about Google's motivations: "_We're in business of making searches useful, we're not in the business of selling infrastructure_."
+Interesting Quote about Google's motivations: "We're in business of making searches useful, we're not in the business of selling infrastructure_."
+
 ### Data Intensive Storage Services for Cloud Environments by Kyriazis, Dimosthenis
 
-Link to E-Book (relevant pages only): https://books.google.com/books?id=mNCeBQAAQBAJ&pg=PA13#v=onepage&q&f=false
+Link to E-Book (relevant pages only): [https://books.google.com/books?id=mNCeBQAAQBAJ&pg=PA13#v=onepage&q&f=false](https://books.google.com/books?id=mNCeBQAAQBAJ&pg=PA13#v=onepage&q&f=false)
 
 This book offers a great, brief overview of different distributed systems from Google File System to Hadoop File System. 
 
@@ -66,7 +68,7 @@ HDFS originally attempted to mimic GFS as it stores large files across multiple 
 
 ### Case Study - GFS: Evolution on Fast-Forward
 
-Link: https://queue.acm.org/detail.cfm?id=1594206
+Link: [https://queue.acm.org/detail.cfm?id=1594206](https://queue.acm.org/detail.cfm?id=1594206)
 
 This article is a short summary of the paper and relevant background, and then goes into an extremely insightful interview with Sean Quinlan, GFS tech leader for years and currently a principal engineer at Google. It explains many of the decisions made in the design of GFS outlined in the paper. 
 
@@ -85,7 +87,8 @@ Some interesting notes from the interview:
 * One strategy to deal with scale to do with the use of multiple "cells" across the network, functioning essentially as related but distinct file systems. With each cell, ultimately, having its own master. 
 
 
-#### Google File System Eval: Part I
+### # Google File System Eval: Part I
+Link: [https://storagemojo.com/google-file-system-eval-part-i/](https://storagemojo.com/google-file-system-eval-part-i/)
 A great simplified down version of GFS for non-technical readers. 
 
-Link: https://storagemojo.com/google-file-system-eval-part-i/
+
